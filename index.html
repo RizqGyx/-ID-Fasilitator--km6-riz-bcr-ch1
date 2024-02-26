@@ -32,7 +32,7 @@
   </head>
   <body>
     <!-- Bagian Header -->
-    <header>
+    <header class="py-3">
       <div class="header_wrapper">
         <a href="#"
           ><img src="./assets/images/logo.png" alt="Logo" class="logo"
@@ -44,11 +44,21 @@
           <a href="#faq">FAQ</a>
           <a href="#register" class="green-box">Register</a>
         </nav>
-        <!-- <div class="menu-toogle">
+        <div class="menu-toogle">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
-        </div> -->
+        </div>
+        <div class="menu-curtain">
+          <div class="title-curtain p-3"><h1>BCR</h1></div>
+          <ul>
+            <li><a href="#our-services">Our Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#register" class="green-box">Register</a></li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -71,8 +81,12 @@
       </section>
 
       <section id="our-services">
-        <img src="assets/images/img_service.png" alt="Our Service Image" />
-        <div>
+        <img
+          src="assets/images/img_service.png"
+          alt="Our Service Image"
+          class="service-img"
+        />
+        <div class="services-content">
           <h2 class="title">
             Best Car Rental for any kind of trip in (Lokasimu)!
           </h2>
@@ -82,13 +96,36 @@
             kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
             meeting, dll.
           </p>
-          <ul>
-            <li><p>Sewa Mobil Dengan Supir di Bali 12 Jam</p></li>
-            <li><p>Sewa Mobil Lepas Kunci di Bali 24 Jam</p></li>
-            <li><p>Sewa Mobil Jangka Panjang Bulanan</p></li>
-            <li><p>Gratis Antar - Jemput Mobil di Bandara</p></li>
-            <li><p>Layanan Airport Transfer / Drop In Out</p></li>
-          </ul>
+          <p>
+            <span class="circle"
+              ><i class="fa fa-check" aria-hidden="true"></i
+            ></span>
+            Sewa Mobil Dengan Supir di Bali 12 Jam
+          </p>
+          <p>
+            <span class="circle"
+              ><i class="fa fa-check" aria-hidden="true"></i
+            ></span>
+            Sewa Mobil Lepas Kunci di Bali 24 Jam
+          </p>
+          <p>
+            <span class="circle"
+              ><i class="fa fa-check" aria-hidden="true"></i
+            ></span>
+            Sewa Mobil Jangka Panjang Bulanan
+          </p>
+          <p>
+            <span class="circle"
+              ><i class="fa fa-check" aria-hidden="true"></i
+            ></span>
+            Gratis Antar - Jemput Mobil di Bandara
+          </p>
+          <p>
+            <span class="circle"
+              ><i class="fa fa-check" aria-hidden="true"></i
+            ></span>
+            Layanan Airport Transfer / Drop In Out
+          </p>
         </div>
       </section>
 
@@ -96,7 +133,7 @@
       <section id="why-us">
         <h2 class="title">Why Us?</h2>
         <p class="paragraph">Mengapa harus pilih Binar Car Rental?</p>
-        <div class="row pt-5 row-col-1 row-cols-lg-4">
+        <div class="row pt-5">
           <div class="feature col">
             <div
               class="feature-icon d-inline-flex align-items-center justify-content-center bg-warning mb-3"
@@ -368,5 +405,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Script Sendiri Untuk Hamburger Navigation -->
+    <script src="js/script.js"></script>
   </body>
 </html>
