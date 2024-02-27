@@ -130,10 +130,6 @@ nav > a,
   font-weight: 700;
 }
 
-.menu-curtain .close-menu {
-  padding: 5px 100vw;
-}
-
 .menu-curtain .social-media ul {
   display: flex;
   justify-content: center;
