@@ -263,11 +263,13 @@ nav > a,
 }
 
 .faq-info {
-  flex-grow: 3;
+  flex-grow: 1;
 }
 
 .faq-accordion {
-  flex-grow: 7;
+  flex-grow: 1;
+  max-width: 50%;
+  overflow: auto;
 }
 
 .accordion {
@@ -405,5 +407,9 @@ footer {
 
   #faq {
     text-align: center;
+  }
+
+  .faq-accordion {
+    max-width: 100%;
   }
 }
