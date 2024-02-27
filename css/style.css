@@ -87,7 +87,7 @@ nav > a,
 .green-box {
   background-color: #5cb85f;
   color: white !important;
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 2px;
   font-weight: 700 !important;
 }
@@ -144,6 +144,18 @@ nav > a,
 
 .menu-open .menu-curtain {
   width: 50%;
+}
+
+.menu-open::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  transition: background-color 0.4s ease;
 }
 
 /* Header Section Style End */
