@@ -161,7 +161,7 @@ nav > a,
   margin-left: 10%;
   display: flex;
   align-items: center;
-  height: 100vh;
+  padding-top: 6rem;
 }
 
 .hero-section img {
